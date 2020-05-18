@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Audio Samples</title>
+  <style>
+body {
+  margin:0;
+  padding:10px 30px;
+  background: #fff;
+  color: #111;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+audio {
+  width: 250px;
+  margin-right: 10px;
+}
+.sample {
+  font-size: 0.9em;
+  font-style: italic;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+</style>
+</head>
+<body>
+    <h2>Audio samples for the paper: Transferring Source Style in Non-Parallel Voice Conversion. </h2>
+    <p><strong>Authors: </strong>Songxiang Liu, Yuewen Cao, Shiyin Kang, Na Hu, Xunying Liu, Dan Su, Dong Yu, Helen Meng</p>
+    <p><strong>Abstract: </strong>Voice conversion (VC) techniques aim to modify speaker identity of an utterance while preserving the underlying linguistic information. Most VC approaches ignore modeling of the speaking style (e.g. emotion and emphasis), which may contain the factors intentionally added by the speaker and should be retained during conversion. This study proposes a sequence-to-sequence based non-parallel VC approach, which has the capability of transferring the speaking style from the source speech to the converted speech by explicitly modeling. Objective evaluation and subjective listening tests show superiority of the proposed VC approach in terms of speech naturalness and speaker similarity of the converted speech. Experiments are also conducted to show the source-style transferability of the proposed approach.</p>
+<hr>
+
+<h2>System Description</h3>
+<p><strong>Baseline-1: PPG-VC</strong> </p>
+<p><strong>Baseline-2: Seq2seqVC</strong> </p>
+<p><strong>The Proposed</strong> </p>
+
+<hr>
+    <h3>Part-1: Voice Conversion Performance Comparison</h3>
+
+    <h4>Intra-Gender VC:</h4>
+    <table border="1">
+    <tbody><tr>
+      <td>Index</td>
+      <td>Source Utterance</td>
+      <td>Reference Utterance</td>
+      <td>PPG-VC</td>
+      <td>Seq2seqVC</td>
+      <td>Proposed</td>
+    </tr>
+    <!-- 1  -->
+    <tr>
+      <td>1</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/1.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/1.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 2  -->
+    <tr>
+      <td>2</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/2.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/2.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 3  -->
+    <tr>
+      <td>3</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/3.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/3.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 4  -->
+    <tr>
+      <td>4</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/4.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/4.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 5  -->
+    <tr>
+      <td>5</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/5.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/5.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 6  -->
+    <tr>
+      <td>6</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/6.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/6.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 7  -->
+    <tr>
+      <td>7</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/7.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/7.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 8 -->
+    <tr>
+      <td>8</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/8.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/8.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 9  -->
+    <tr>
+      <td>9</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/9.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/9.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 10  -->
+    <tr>
+      <td>10</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/10.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/10.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 11  -->
+    <tr>
+      <td>11</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/11.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/11.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 12  -->
+    <tr>
+      <td>12</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/12.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/12.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 13  -->
+    <tr>
+      <td>13</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/13.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/13.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 14  -->
+    <tr>
+      <td>14</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/14.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/14.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 15  -->
+    <tr>
+      <td>15</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/15.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/15.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 16  -->
+    <tr>
+      <td>16</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/16.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/16.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 17  -->
+    <tr>
+      <td>17</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/17.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/17.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 18  -->
+    <tr>
+      <td>18</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/18.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/18.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 19  -->
+    <tr>
+      <td>19</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/19.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/19.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 20  -->
+    <tr>
+      <td>20</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/taohua/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/f2f/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/f2f/20.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/f2f/20.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+    </table>
+    
+    <h4>Inter-Gender VC:</h4>
+    <table border="1">
+    <tbody><tr>
+      <td>Index</td>
+      <td>Source Utterance</td>
+      <td>Reference Utterance</td>
+      <td>PPG-VC</td>
+      <td>Seq2seqVC</td>
+      <td>Proposed</td>
+    </tr>
+    <!-- 1  -->
+    <tr>
+      <td>1</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/1.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/1.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 2  -->
+    <tr>
+      <td>2</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/2.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/2.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 3  -->
+    <tr>
+      <td>3</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/3.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/3.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 4  -->
+    <tr>
+      <td>4</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/4.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/4.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 5  -->
+    <tr>
+      <td>5</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/5.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/5.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 6  -->
+    <tr>
+      <td>6</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/6.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/6.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 7  -->
+    <tr>
+      <td>7</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/7.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/7.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 8 -->
+    <tr>
+      <td>8</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/8.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/8.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 9  -->
+    <tr>
+      <td>9</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/9.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/9.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 10  -->
+    <tr>
+      <td>10</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/10.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/10.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 11  -->
+    <tr>
+      <td>11</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/11.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/11.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 12  -->
+    <tr>
+      <td>12</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/12.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/12.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 13  -->
+    <tr>
+      <td>13</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/13.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/13.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 14  -->
+    <tr>
+      <td>14</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/14.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/14.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 15  -->
+    <tr>
+      <td>15</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/15.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/15.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 16  -->
+    <tr>
+      <td>16</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/16.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/16.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 17  -->
+    <tr>
+      <td>17</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/17.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/17.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 18  -->
+    <tr>
+      <td>18</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/18.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/18.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 19  -->
+    <tr>
+      <td>19</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/19.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/19.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 20  -->
+    <tr>
+      <td>20</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/zhanjun/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/PPG-VC/m2f/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/seq2seqVC/m2f/20.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/proposed/m2f/20.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+    </table>
+
+    <h3>Part-2: Source Style Tansfer Performance Comparison</h3>
+
+    <table border="1">
+    <tbody><tr>
+      <td>Index</td>
+      <td>Source Utterance</td>
+      <td>Target Utterance</td>
+      <td>PPG-VC</td>
+      <td>Seq2seqVC</td>
+      <td>Proposed</td>
+    </tr>
+    <!-- 1  -->
+    <tr>
+      <td>1</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/1.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/1.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 2  -->
+    <tr>
+      <td>2</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/2.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/2.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 3  -->
+    <tr>
+      <td>3</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/3.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/3.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+    <!-- 4  -->
+    <tr>
+      <td>4</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/4.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/4.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 5  -->
+    <tr>
+      <td>5</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/5.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/5.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 6  -->
+    <tr>
+      <td>6</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/6.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/6.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 7  -->
+    <tr>
+      <td>7</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/7.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/7.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 8  -->
+    <tr>
+      <td>8</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/8.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/8.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 9  -->
+    <tr>
+      <td>9</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/9.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/9.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 10  -->
+    <tr>
+      <td>10</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/10.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/10.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 11  -->
+    <tr>
+      <td>11</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/11.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/11.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 12  -->
+    <tr>
+      <td>12</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/12.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/12.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/12.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 13  -->
+    <tr>
+      <td>13</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/13.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/13.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/13.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 14  -->
+    <tr>
+      <td>14</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/14.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/14.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/14.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 15  -->
+    <tr>
+      <td>15</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/15.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/15.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 16  -->
+    <tr>
+      <td>16</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/16.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/16.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 17  -->
+    <tr>
+      <td>17</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/17.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/17.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/17.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 18  -->
+    <tr>
+      <td>18</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/18.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/18.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/18.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 19  -->
+    <tr>
+      <td>19</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/19.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/19.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/19.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+
+    <!-- 20  -->
+    <tr>
+      <td>20</td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/reference/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/daji/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/PPG-VC/20.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/seq2seqVC/20.wav" type="audio/wav">
+        </audio>
+      </td> 
+      <td>
+        <audio controls="controls">
+        <source src="wavs/style_transfer/proposed/20.wav" type="audio/wav">
+        </audio>
+      </td>      
+    </tr>
+    
+    </table>
+
+
+    </tbody>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
